@@ -1,0 +1,44 @@
+#modal-alert,#modal-alert1,#modal-alert2{
+  display: none;
+}
+.big .layui-layer-setwin{
+  top: 22px;
+}
+.big .layui-layer-title{
+  background: #fff;
+  border: none;
+  font-weight:bold;
+  font-size: 16px;
+  height: 55px;
+  line-height: 55px;
+}
+.big .layui-layer-content{
+  background: #fbf9f7;
+  padding: 20px 30px 40px;
+  text-align: justify;
+}
+.big h4{
+  margin: 10px 0;
+  font-size:14px;
+  font-weight:bold;
+}
+.big p,.big h5{
+  font-size:12px;
+  font-weight:bold;
+  text-indent: 2em;
+}
+.big .btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+.big .btn a{
+  padding: 6px 20px;
+  margin: 0 auto;
+  background: #ff8a00;
+  color: #fff;
+  border-radius: 5px;
+}
+
+

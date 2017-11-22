@@ -1,0 +1,87 @@
+.left{
+  width: 220px;
+  background: #293038;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0px;
+  overflow-x: hidden;
+  .left_title{
+    height: 210px;
+    border-bottom: 2px solid #ff8400;
+    padding-top: 50px;
+    .left_header{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #fff;
+      position: relative;
+      margin: auto;
+      span{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url(../images/person-icon.png) -29px -29px no-repeat;
+      }
+    }
+    .left_text{
+      padding: 30px 0;
+      p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 35px;
+      }
+    }
+  }
+  .list{
+    li{
+      font-size: 16px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      &.cur{
+        a{
+          color: #ff8a00;
+        }
+      }
+      a:hover{
+        color: #ff8a00;
+      }
+      a{
+        color: #666;
+        span{
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          margin-right: 20px;
+          vertical-align: -5px;
+          // border: 1px solid #fff;
+          &.icon_1{
+            background: url(../images/person-icon.png) -8px -97px no-repeat;
+          }
+          &.icon_2{
+            background: url(../images/person-icon.png) -35px -97px no-repeat;
+          }
+          &.icon_3{
+            background: url(../images/person-icon.png) -62px -97px no-repeat;
+          }
+          &.icon_4{
+            background: url(../images/person-icon.png) -91px -97px no-repeat;
+          }
+          &.icon_5{
+            background: url(../images/person-icon.png) -118px -97px no-repeat;
+          }
+          &.icon_6{
+            background: url(../images/person-icon.png) -144px -97px no-repeat;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,235 @@
+
+.person-index{
+	width: 100%;
+	height: 949px;
+	position: relative;
+	.wrap{
+		position: absolute;
+		width: 100%;
+		top: 80px;
+		bottom: 0px;
+
+		.right{
+		    position: absolute;
+		    bottom: 0px;
+		    right: 0px;
+			top: 0px;
+			left: 220px;
+			width: auto;
+			background: #e4eaf0;
+			overflow-x: hidden;
+			.right-whole{
+				margin: 20px 50px;
+				.right_top{
+					padding:0 40px 40px;
+					margin-bottom: 20px;
+					background: #fff;
+					.account{
+						height: 110px;
+						span{
+							margin-right: 20px;
+							width: 50px;
+							height: 50px;
+							display: inline-block;
+							line-height: 110px;
+							position: relative;
+							top: 50%;
+							margin-top:-25px;
+							&.icon_account{
+								background: url(../images/person-icon.png) -166px -24px no-repeat;
+							}
+							&.icon_shiming{
+								background: url(../images/person-icon.png) -287px -23px no-repeat;
+							}
+							&.icon_shenfen{
+								background: url(../images/person-icon.png) -226px -23px no-repeat;
+							}
+						}
+						.text{
+							position: relative;
+							top: 50%;
+							margin-top: -21px;
+							p{
+								color: #000;
+								font-size: 16px;
+								&.english{
+									color: #999;
+									font-size: 12px;
+								}
+							}
+						}
+						.fr{
+							line-height: 110px;
+						}
+					}
+					.account_div{
+						.accunt_ul{
+							li{
+								height:  55px;
+								line-height: 55px;
+								font-size: 14px;
+								padding-left: 34px;
+								&.active{
+									background: #e4eaf0;
+								}
+								b{
+									color: #999;
+								}
+								span{
+									display: inline-block;
+									margin-right: 10px;
+									vertical-align: -5px;
+									&.icon_rectangle{
+										width: 41px;
+										height: 22px;
+										background: url(../images/person-icon.png) -333px -95px no-repeat;
+									}
+									&.icon_circle{
+										width: 23px;
+										height: 23px;
+										background: url(../images/person-icon.png) -460px -95px no-repeat;
+									}
+								}
+								a{
+									&.active_a{
+										margin-left: 20px;
+										font-size: 14px;
+										color: #ff6c00;
+										border-radius: 4px;
+										padding: 2px 4px;
+										border: 1px solid #ff6c00;
+										
+									}
+									&.text_color{
+										color: #1d9eff;
+										border: none;
+										margin: 0;
+										font-size: 14px;
+									}
+									&.blue_a{
+										margin-right: 60px;
+									}
+								}
+								em{
+									margin-left: 20px;
+									font-size: 12px;
+								}
+							}
+						}
+						.account_shenfen{
+							position: relative;
+							border: 1px solid #d0ebff;
+							margin-bottom: 20px;
+							.text_line{
+								border-bottom: 1px solid #f2f2f2;
+								margin-left: 30px;
+								span{
+									display: inline-block;
+									font-weight: 600;
+									padding: 8px 5px;
+									color: #1d9eff;
+									border-bottom: 2px solid #d0ebff
+								}
+							}
+							.text_ul{
+								padding: 30px 0px 30px 30px ;
+								li{
+									span{
+										width: 70px;
+										color: #999;
+										text-align: right;
+										display: inline-block;
+									}
+									.text_em{
+										color: #999;
+									}
+								}
+							}
+							.text_renzheng{
+								position: absolute;
+								right: 10px;
+								bottom: 30px;
+								p{
+									text-align: center;
+								}
+								span{
+									position: absolute;
+									top: 0;
+									left: 0;
+									right: 0;
+									bottom: 0;
+									width: 60px;
+									height: 60px;
+									margin: auto;
+									display: inline-block;
+									background: url(../images/person-icon.png) -524px -18px no-repeat
+								}
+							}
+						}
+					}
+				}
+			}
+			.order{
+				background: #fff;
+				h2{
+					height: 70px;
+					line-height: 70px;
+					margin: 20px 50px;
+					font-size: 16px;
+				}
+			}
+			.order-msg{
+				background: #fff;
+				.my-order{
+					margin: 20px 50px;
+					position: relative;
+					.order-title{
+						padding: 0 40px;
+						height: 60px;
+						line-height: 60px;
+						border-bottom:1px solid #ddd;
+						li{
+							float: left;
+							margin-right:60px;
+							&.cur{
+								border-bottom: 1px solid #ff8a00;
+							}
+						}
+					}
+					.search{
+						width: 200px;
+						position: absolute;
+						right: 0;
+						top: 20px;
+						input{
+							width: 200px;
+							height: 30px;
+							border: 1px solid #d9d9d9;
+							padding-left: 10px;
+							border-radius: 5px;
+						}
+						span{
+							position: absolute;
+							top: 10px;
+							right: 0px;
+							width: 20px;
+							height: 20px;
+							cursor: pointer;
+							background: url(../images/icon.png) -10px -65px no-repeat;
+						}
+					}
+				}
+				.order-content{
+					margin: 20px 50px;
+					li{
+						#table{
+							th{
+								background: #000!important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

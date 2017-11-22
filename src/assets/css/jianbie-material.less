@@ -1,0 +1,261 @@
+
+/* 弹出框部分 */
+.madel{
+	display: none;
+	position:fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: rgba(0,0,0,.5);
+	z-index:2000;
+	.madel-content{
+		width: 600px;
+		height: 800px;
+		padding: 20px 40px;
+		background: #fff;
+		position:absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+}
+/* 主题内容部分 */
+.jianbie-material{
+	background: #f4eeea;
+	.step{
+		text-align: center;
+		padding: 60px 0 24px;
+		span{
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background: url(../images/weitianxie.png) no-repeat;
+			&.icon{
+				background: url(../images/jinxing.png) no-repeat;
+			}
+			&.succeed{
+				background: url(../images/wancheng.png) no-repeat;
+			}
+		}
+		b{
+			width: 160px;
+			display:inline-block;
+			border-bottom: 1px solid #f6f0ec;
+			vertical-align:9px;
+		}
+	}
+	.step-list{
+		padding-bottom: 60px;
+		span{
+			display:inline-block;
+			width:100px;
+			text-align: center;
+			&.one{
+				margin-left: 82px;
+			}
+			&.two{
+				margin-left: 77px;
+			}
+			&.three{
+				margin-left: 80px;
+			}
+			&.four{
+				margin-left: 83px;
+			}
+			&.five{
+				margin-left: 80px;
+			}
+		}
+	}
+	.content{
+		h2{
+			width: 167px;
+			height: 39px;
+			line-height: 39px;
+			text-align: center;
+			font-size: 18px;
+			color: #000;
+			margin: 0 auto 12px;
+			background: url(../images/biaoti.png) no-repeat;
+		}
+		.manner{
+			margin-top: 40px;
+			b{
+				display:inline-block;
+				height: 12px;
+				width: 12px;
+				background: url(../images/ling.png) no-repeat;
+				margin-left: 10px;
+				margin-right: 5px;
+				vertical-align: -2px;
+			}
+			i{
+				font-size: 12px;
+			}
+		}
+		.manner,.word{
+			label{
+				display: inline-block;
+				width: 160px;	
+				height: 40px;
+				line-height: 40px;
+				margin-left: 155px;
+				text-align: right;
+				font-size: 16px;
+				color: #000;
+			}
+			.file {
+			    position: relative;
+			    display: inline-block;
+			    width: 80px;
+			    height:30px;
+			    line-height: 30px;
+			    text-align: center;
+			    color: #Fff;
+			    border-radius: 5px;
+			    background: #ff984c;
+			    font-size: 12px;
+			   	margin-right: 5px;
+			    input {
+			    	width: 80px;
+			    	height: 30px;
+				    position: absolute;
+				    font-size: 14px;
+				    right: 0;
+				    top: 0;
+				    opacity: 0;
+				}
+			}
+			.txt{
+				font-size: 12px;
+				.icon{
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background: url(../images/wan.png) no-repeat;
+					vertical-align: -6px;
+					margin-right: 5px;
+				}
+			}
+			.progress-wrap{
+				display:none;
+				// display: inline-block;
+				vertical-align: -5px;
+				width: 140px;
+				height: 20px;
+				background: url(../images/progress.gif)	no-repeat;
+			}
+		}
+		.word{
+			input{
+				width: 300px;
+				height: 40px;
+				line-height: 40px;
+				padding-left: 10px;
+				border: 1px solid #d9d9d9;
+				border-radius: 5px;
+			}
+		}
+		.word-description{
+			width: 500px;
+			padding: 20px;
+			margin: 20px auto;
+			background: #fbf9f7;
+			position:relative;
+			p{
+				font-size: 12px;
+			}
+			.left-icon,.right-icon{
+				position:absolute;
+				left: -120px;
+				top: 0;
+				width: 96px;
+				height: 92px;
+				background: url(../images/zuoyinhao.png) no-repeat;
+			}
+			.right-icon{
+				left: auto;
+				right: -120px;
+				bottom: 0;
+				top: auto;
+				background: url(../images/youyinhao.png) no-repeat;
+			}
+		}
+		.correlation{
+			width: 540px;
+			margin: 20px auto;
+			label{
+				display: inline-block;
+				width: 112px;	
+				height: 40px;
+				line-height: 40px;
+				text-align: right;
+				font-size: 16px;
+				color: #000;
+			}
+			.file {
+			    position: relative;
+			    display: inline-block;
+			    width: 80px;
+			    height: 30px;
+			    line-height: 30px;
+			    text-align: center;
+			    color: #Fff;
+			    border-radius: 5px;
+			    background: #ff984c;
+			    font-size: 12px;
+			    margin-right: 5px;
+			    input {
+			    	width: 80px;
+			    	height: 30px;
+				    position: absolute;
+				    font-size: 12px;
+				    right: 0;
+				    top: 0;
+				    opacity: 0;
+				}
+			}
+			.txt{
+				font-size: 12px;
+				.icon{
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background: url(../images/wan.png) no-repeat;
+					vertical-align: -6px;
+					margin-right: 5px;
+				}
+			}
+			.progress-wrap{
+				display:none;
+				// display: inline-block;
+				vertical-align: -5px;
+				width: 140px;
+				height: 20px;
+				background: url(../images/progress.gif)	no-repeat;
+			}
+		}
+		.operation{
+			text-align: center;
+		    a{
+		        display:inline-block;
+		        width: 120px;
+		        height: 40px;
+		        line-height: 40px;
+		      	color: #1d9eff;
+				text-align: center;
+		        border-radius: 5px;
+		        margin-top: 60px;
+		        &.next{
+					background: #ff6c00;  
+					color: #fff;
+		        }
+		    }
+		}
+	}
+}
+
